@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Creater</title>
+    <link rel="icon" type="image/x-icon" href="./assets/contact.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Contacts</h2>
+      <div class="nav-item">
+        <span class="material-icons">contacts</span>Contacts
+      </div>
+      <div class="nav-item">
+        <span class="material-icons">person_add</span>Create Contact
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="left">
+          <span class="material-icons">arrow_back</span>
+          <h3>Create Contact</h3>
+        </div>
+        <div>
+          <button id="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="form-container">
+        <span class="material-icons avatar">person</span>
+        <div class="form-fields">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Number</label>
+            <input type="text" id="phone" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact List -->
+      <div class="contact-list" id="contacts"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
