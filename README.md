@@ -16,12 +16,16 @@ Built with beginner-friendly HTML, CSS, and JavaScript.
 
 👉 [View live on Netlify](https://shalinib-js.github.io/Contact-Manager/)
 
-## Screenshots
-<img width="1358" height="650" alt="ContactManager" src="https://github.com/user-attachments/assets/e6c46f21-45b5-44af-98cc-0287e00d6f6c" />
 
 ## Tech Stack
 
 - HTML
 - CSS
 - JavaScript (ES6+)
+
+
+## Screenshots
+<img width="1358" height="650" alt="ContactManager" src="https://github.com/user-attachments/assets/e6c46f21-45b5-44af-98cc-0287e00d6f6c" />
+
+
 
